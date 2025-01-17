@@ -1,0 +1,330 @@
+
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  }
+
+  .body{
+    background-color:rgb(244, 239, 239);
+  }
+
+  /* Shared style */
+  
+  .btn-primary{
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    color: #006A50;
+    padding:  15px 30px;
+    border-radius: 5px;
+  
+  }
+  .btn-primary-2{
+    background-color: #006A50;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    padding:  17px 36px;
+    border-radius: 5px;
+    margin-top: 16;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .btn-primary-3{
+    background-color: #006A50;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    padding:  17px 34px;
+    border-radius: 5px;
+    
+    
+  }
+  .button_cen{
+    text-align:center;
+    margin-top: 25px;
+  }
+  .dark{
+    color: #6A7972;
+  } 
+  .dark2{
+    color: #0E0E0E;
+  } 
+  .para{
+    font-size: 20;
+    font-weight: 400;
+    color: rgba(60, 59, 59, 1);
+    margin-left: 20px;
+  }
+  .had{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+  }
+
+  
+  /*  Nav Styles */
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 24px 160px;
+  }
+  
+  .nav-title{
+    font-weight: 800;
+    font-size: 32px;
+  }
+  
+  nav ul{
+    display:  flex;
+    align-items: center;
+  }
+  
+  nav ul li{
+    list-style: none;
+    margin-right: 58px;
+    
+  }
+  
+  nav li a {
+    text-decoration: none;
+    font-size: 20;
+  }
+  /* Main */
+  .main{
+    margin: 80px 160px;
+
+    
+  }
+  .main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    
+  }
+
+
+  /* Banner */
+  .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c6e4d6;
+    border-radius: 24px;
+    max-width: 1280px;
+    max-height: 560 px;
+    padding: 40px;
+    margin: 20px 160px;
+
+  }
+
+
+  .banner-conternt{
+    max-width: 622px;
+    max-height: 326px ;
+    
+   
+  }
+ 
+
+  .banner-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 0;
+    margin-top: 0;
+    
+
+  }
+
+  .Banner-description{
+    margin-left: 0;
+    margin-top: 16px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    
+   
+     font-size: 56px;
+     font-weight: bold;
+  }
+
+  .Banner-pic{
+    max-width: 474.03px;
+    max-height: 400px;
+    margin-left: 10px;
+    
+  }
+ /* Vision */
+
+  .vision-containar{
+    display: flex;
+    gap:24px;
+  }
+
+  .vision{
+    padding: 32px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    background-color: #A7C4F5;
+  }
+  .Pillars-container{
+    display: flex;
+    gap:24px;
+  }
+  .pillar{
+    padding: 32px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    background-color: white;
+  }
+  /* DR. Yunus */
+  .bax5{
+    background-color: rgb(252, 249, 249);
+    margin-top: 50px;
+    border-radius: 16px;
+  }
+
+  
+
+/*  Recent */
+  .Recent{
+    display: flex;
+  }
+  .text{
+    margin-left: 20px;
+  }
+  .setimg{
+    border-radius: 24px;
+    size: 408px 306px;
+  }
+
+.btn-read{
+    background-color: #006A50;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    padding:  13px 26px;
+    border-radius: 5px;
+    border-color: #006A50;
+    margin-top: 16;
+}
+/* Donate */
+
+.donate{
+  align-items: center;
+  margin: 80px 160px 32px 160px;
+  text-align: center;
+}
+.takas{
+  display: flex;
+  
+  gap: 50px;
+  justify-content: center;
+  
+
+}
+
+.taka{
+  padding: 40px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  background-color: white;
+  
+}
+.amount{
+  padding: 20px 422.5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* subscribe */
+
+.subscribe-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cce7dc;
+  padding: 50px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+}
+
+.subscribe-container {
+ 
+  padding: 50px 20px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+
+}
+
+.subscribe-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgba(14, 14, 14, 1);
+}
+
+.subscribe-container p {
+  font-size: 16px;
+  color: rgba(70, 79, 75, 1);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.subscribe-form input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.subscribe-form button {
+  background-color: #0a6934;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.note {
+  font-size: 16px;
+  color: rgba(70, 79, 75, 1);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+/* Footer */
+
+.footer{
+  text-align: center;
+}
+.footer-img{
+  display: flex;
+  justify-content: center;
+  gap:50px;
+  
+
+}
